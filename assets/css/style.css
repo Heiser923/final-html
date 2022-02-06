@@ -432,33 +432,15 @@ ul {
   font-family: amrFont;
   font-size: 180px;
   background-image: -webkit-gradient(
-    90deg,
-    rgba(91, 89, 124, 1) 0%,
-    rgba(13, 0, 236, 1) 36%,
-    rgba(56, 56, 175, 1) 71%,
-    rgba(59, 73, 148, 1) 100%
+    linear,
+    left top,
+    right top,
+    from(#f4627c),
+    to(#b439a8)
   );
-  background-image: -webkit-linear-gradient(
-    90deg,
-    rgba(91, 89, 124, 1) 0%,
-    rgba(13, 0, 236, 1) 36%,
-    rgba(56, 56, 175, 1) 71%,
-    rgba(59, 73, 148, 1) 100%
-  );
-  background-image: -o-linear-gradient(
-    90deg,
-    rgba(91, 89, 124, 1) 0%,
-    rgba(13, 0, 236, 1) 36%,
-    rgba(56, 56, 175, 1) 71%,
-    rgba(59, 73, 148, 1) 100%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(91, 89, 124, 1) 0%,
-    rgba(13, 0, 236, 1) 36%,
-    rgba(56, 56, 175, 1) 71%,
-    rgba(59, 73, 148, 1) 100%
-  );
+  background-image: -webkit-linear-gradient(left, #f4627c, #b439a8);
+  background-image: -o-linear-gradient(left, #f4627c, #b439a8);
+  background-image: linear-gradient(to right, #f4627c, #b439a8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 23px;
@@ -2989,4 +2971,8 @@ ul {
 .single-event .part-text .meta-info span.location {
   font-size: 16px;
   color: #bbb;
+}
+
+.logo a h1 {
+  color: #8468c7;
 }
