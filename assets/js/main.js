@@ -115,7 +115,7 @@
         //======================================
         //======== gallery slider ==========
         //======================================
-        $('.dj-slider').owlCarousel({
+        $('.-slider').owlCarousel({
             loop: true,
             margin: 30,
             nav: false,
